@@ -1,7 +1,7 @@
 # OBJETIVO
 
-El objetivo de este progama es leer la rss <http://feeds.feedburner.com/descargas2020new> de la pagina y generar
-otros rss con los torrent para no ver la publicidad intrusiva.
+El objetivo de este progama es leer la rss <http://feeds.feedburner.com/descargas2020new> de la pagina y guardar
+datos para no ver la publicidad intrusiva.
 
 Datos interesantes para el scraping del *titulo* del *RSS* ejemplos reales:
 
@@ -46,8 +46,8 @@ De estos datos podemos concluir que de los titulos podemos extraer estos datos:
 ## INFRAESTRUCTURA
 
 El programa esta desarrolado y probado con python3.
-Aplicacion de scraping escrita en python que lee los datos y los guarda
-en elasticsearch, esto programa se jecutara mediante cron.
+Aplicacion de scraping escrita en python que lee los datos y los guarda en
+una base de datos postgres, esto programa se jecutara mediante cron.
 
     pip install feedparser
     pip install request
