@@ -1,3 +1,5 @@
 #!/bin/bash
 
+notify-send descargas2002 'Inicio scraping'
 python3 /home/imarin/trabajo/descargas2020/descargas2020.py
+notify-send descargas2020 'Fin scraping'
